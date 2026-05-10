@@ -2,97 +2,569 @@
 
 
 
-\## Business Problem
-
-A retail company needs visibility into sales performance across regions, 
-
-product categories, and customer segments to make data-driven 
-
-decisions about discounting, inventory, and marketing focus.
+A complete end-to-end data analytics project built using \*\*SQL, Python, and Power BI\*\* to analyse retail sales performance, customer behaviour, discount impact, and regional profitability trends.
 
 
 
-\## Objective
-
-Build an interactive Power BI dashboard answering 5 key business 
-
-questions, supported by SQL queries and Python EDA.
+\---
 
 
 
-\## Dataset
-
-\- Source: Sample Superstore (Kaggle)
-
-\- Size: \~10,000 orders | 21 columns | 2014–2017
-
-\- Link: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
+\## 🚀 Project Overview
 
 
 
-\## Tools \& Technologies
-
-| Tool | Purpose |
-
-|------|---------|
-
-| SQL Server | Data storage \& aggregation queries |
-
-| Python (pandas, seaborn) | EDA \& data cleaning |
-
-| Power BI Desktop | Interactive dashboard |
-
-| Jupyter Notebook | Analysis notebook |
+Retail businesses generate massive volumes of transactional data every day. Without proper analysis, identifying profitable products, seasonal trends, and loss-making discount strategies becomes difficult.
 
 
 
-\## Key Findings
-
-1\. West region leads in revenue; East has higher profit margin
-
-2\. Technology is the most profitable category (\~17% margin)
-
-3\. Sales peak every November–December (seasonal pattern)
-
-4\. Orders with >20% discount almost always generate negative profit
-
-5\. Phones \& Chairs lead revenue; Copiers lead profit-per-unit
+This project demonstrates how modern analytics tools can be used together to transform raw sales data into actionable business insights.
 
 
 
-\## Dashboard Preview
+The solution includes:
+
+
+
+\* SQL-based data querying and aggregation
+
+\* Python exploratory data analysis (EDA)
+
+\* Interactive Power BI dashboard visualisations
+
+\* Business-focused insights and recommendations
+
+
+
+\---
+
+
+
+\## 🧩 Business Problem
+
+
+
+A retail company requires visibility into:
+
+
+
+\* Regional sales performance
+
+\* Product profitability
+
+\* Customer segment behaviour
+
+\* Seasonal sales trends
+
+\* The financial impact of discounts
+
+
+
+The goal is to support better business decisions related to:
+
+
+
+\* Discount strategies
+
+\* Inventory planning
+
+\* Marketing focus
+
+\* Product prioritisation
+
+\* Profit optimisation
+
+
+
+\---
+
+
+
+\## 🎯 Project Objectives
+
+
+
+This project was developed to:
+
+
+
+✅ Analyse sales and profit performance across regions and categories
+
+✅ Identify high-performing and low-performing products
+
+✅ Discover seasonal purchasing trends
+
+✅ Evaluate the relationship between discounts and profitability
+
+✅ Build an interactive dashboard for business stakeholders
+
+
+
+\---
+
+
+
+\## 📂 Dataset Information
+
+
+
+| Attribute   | Details                   |
+
+| ----------- | ------------------------- |
+
+| Dataset     | Sample Superstore Dataset |
+
+| Source      | Kaggle                    |
+
+| Records     | \~10,000 retail orders     |
+
+| Time Period | 2014 – 2017               |
+
+| Columns     | 21                        |
+
+
+
+🔗 Dataset Link:
+
+urlSuperstore Dataset on Kaggle\[https://www.kaggle.com/datasets/vivek468/superstore-dataset-final](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+
+
+
+\---
+
+
+
+\## 🛠️ Tools \& Technologies
+
+
+
+| Tool / Technology                    | Purpose                                |
+
+| ------------------------------------ | -------------------------------------- |
+
+| Microsoft SQL Server                 | Data storage and aggregation queries   |
+
+| Python (pandas, matplotlib, seaborn) | Data cleaning and exploratory analysis |
+
+| Jupyter Notebook                     | EDA and analysis workflow              |
+
+| Power BI Desktop                     | Interactive dashboard visualisation    |
+
+| Git \& GitHub                         | Version control and project hosting    |
+
+
+
+\---
+
+
+
+\## 📈 Key Business Insights
+
+
+
+\### 🌍 Regional Performance
+
+
+
+\* The \*\*West region\*\* generated the highest overall sales revenue.
+
+\* The \*\*East region\*\* achieved stronger profit margins.
+
+
+
+\### 💻 Product Category Analysis
+
+
+
+\* \*\*Technology\*\* products produced the highest profits.
+
+\* Office Supplies generated stable but lower margins.
+
+
+
+\### 📅 Seasonal Trends
+
+
+
+\* Sales consistently peaked during \*\*November and December\*\*, indicating strong holiday season demand.
+
+
+
+\### 💸 Discount Impact
+
+
+
+\* Orders with discounts above \*\*20%\*\* were frequently unprofitable.
+
+\* Excessive discounting significantly reduced overall margins.
+
+
+
+\### 🪑 Product-Level Findings
+
+
+
+\* \*\*Phones\*\* and \*\*Chairs\*\* generated the highest sales revenue.
+
+\* \*\*Copiers\*\* delivered the highest profit-per-unit.
+
+
+
+\---
+
+
+
+\## 📊 Dashboard Preview
+
+
+
+\### Main Dashboard
+
+
 
 !\[Dashboard](dashboards/screenshots/dashboard\_main.png)
 
 
 
-\## How to Run
-
-1\. Clone this repo: git clone <repo-url>
-
-2\. Install requirements: pip install -r requirements.txt
-
-3\. Open notebooks/01\_EDA\_Retail\_Sales.ipynb in Jupyter
-
-4\. Open dashboards/retail\_sales\_dashboard.pbix in Power BI Desktop
+\---
 
 
 
-\## Project Structure
+\## 📌 Features Included
+
+
+
+\* Interactive Power BI visuals
+
+\* Regional sales analysis
+
+\* Profitability breakdowns
+
+\* Discount vs profit analysis
+
+\* Seasonal trend visualisations
+
+\* Product category performance metrics
+
+\* Python EDA notebook
+
+\* SQL analysis queries
+
+
+
+\---
+
+
+
+\## 🧪 Exploratory Data Analysis (Python)
+
+
+
+The Python analysis includes:
+
+
+
+\* Missing value checks
+
+\* Data cleaning
+
+\* Descriptive statistics
+
+\* Correlation analysis
+
+\* Trend analysis
+
+\* Visualisations using matplotlib and seaborn
+
+
+
+Libraries used:
+
+
+
+```python
+
+pandas
+
+matplotlib
+
+seaborn
+
+openpyxl
 
 ```
+
+
+
+\---
+
+
+
+\## 🗄️ SQL Analysis
+
+
+
+SQL Server was used to:
+
+
+
+\* Aggregate regional sales
+
+\* Calculate profitability metrics
+
+\* Analyse discount impacts
+
+\* Generate KPI-focused business queries
+
+
+
+Example business questions answered:
+
+
+
+\* Which region generates the highest revenue?
+
+\* Which product categories are most profitable?
+
+\* How do discounts affect profit margins?
+
+\* What are the peak sales months?
+
+
+
+\---
+
+
+
+\## ▶️ How to Run This Project
+
+
+
+\### 1️⃣ Clone the Repository
+
+
+
+```bash
+
+git clone <repo-url>
+
+```
+
+
+
+\### 2️⃣ Install Python Dependencies
+
+
+
+```bash
+
+pip install -r requirements.txt
+
+```
+
+
+
+\### 3️⃣ Open the Jupyter Notebook
+
+
+
+```bash
+
+jupyter lab
+
+```
+
+
+
+Then open:
+
+
+
+```text
+
+notebooks/01\_EDA\_Retail\_Sales.ipynb
+
+```
+
+
+
+\### 4️⃣ Open the Power BI Dashboard
+
+
+
+Open:
+
+
+
+```text
+
+dashboards/retail\_sales\_dashboard.pbix
+
+```
+
+
+
+using:
+
+
+
+\* Power BI Desktop
+
+
+
+\---
+
+
+
+\## 📁 Project Structure
+
+
+
+```text
 
 retail-sales-dashboard/
 
-├── data/raw/          ← original CSV
+│
 
-├── data/processed/    ← cleaned CSV
+├── data/
 
-├── notebooks/         ← Jupyter EDA notebook
+│   ├── raw/                 # Original dataset
 
-├── sql/               ← SQL queries
+│   └── processed/           # Cleaned dataset
 
-└── dashboards/        ← .pbix file + screenshots
+│
+
+├── notebooks/               # Python EDA notebooks
+
+│
+
+├── sql/                     # SQL queries and scripts
+
+│
+
+├── dashboards/
+
+│   ├── screenshots/         # Dashboard preview images
+
+│   └── retail\_sales\_dashboard.pbix
+
+│
+
+├── requirements.txt         # Python dependencies
+
+├── README.md                # Project documentation
+
+└── .gitignore
 
 ```
+
+
+
+\---
+
+
+
+\## 📚 Skills Demonstrated
+
+
+
+\* Data Cleaning
+
+\* Exploratory Data Analysis
+
+\* Data Visualisation
+
+\* SQL Querying
+
+\* Business Intelligence
+
+\* Dashboard Design
+
+\* Data Storytelling
+
+\* Git \& GitHub Workflow
+
+
+
+\---
+
+
+
+\## 👩‍💻 Author
+
+
+
+\*\*Piumi Jayawardene\*\*
+
+Information Systems Undergraduate
+
+Interested in:
+
+
+
+\* Data Analytics
+
+\* Business Intelligence
+
+\* Power BI
+
+\* SQL
+
+\* Python
+
+\* Data Visualisation
+
+\* Business Analysis
+
+
+
+🔗 LinkedIn:
+
+urlPiumi Jayawardene LinkedIn\[https://www.linkedin.com/in/piumi-jayawardene/](https://www.linkedin.com/in/piumi-jayawardene/)
+
+
+
+\---
+
+
+
+\## ⭐ If You Found This Useful
+
+
+
+Feel free to:
+
+
+
+\* Star the repository ⭐
+
+\* Connect on LinkedIn 🤝
+
+\* Share feedback or suggestions 💬
+
+
+
+\---
+
+
+
+📌 Future Improvements
+
+
+
+Planned future enhancements:
+
+
+
+\* Predictive sales forecasting
+
+\* Customer segmentation analysis
+
+\* Advanced KPI dashboards
+
+\* Real-time dashboard integration
+
+\* Automated ETL pipeline
+
+
 
