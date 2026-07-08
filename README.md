@@ -244,33 +244,9 @@ retail-sales-dashboard/
 
 ---
 
-## 👩‍💻 Author
-
-**Piumi Jayawardene**  
-Information Systems Undergraduate
-
-Interested in:
-
-- Data Analytics
-- Business Intelligence
-- Power BI
-- SQL
-- Python
-- Data Visualisation
-- Business Analysis
-
 🔗 LinkedIn:  
 [Piumi Jayawardene LinkedIn](https://www.linkedin.com/in/piumi-jayawardene/)
 
----
-
-## ⭐ If You Found This Useful
-
-Feel free to:
-
-- Star the repository ⭐
-- Connect on LinkedIn 🤝
-- Share feedback or suggestions 💬
 
 ---
 
